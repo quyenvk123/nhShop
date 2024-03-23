@@ -1,0 +1,56 @@
+/* ==== BANNER ==== */
+.banner {
+    height: 500px;
+    width: 100%;
+    position: relative;
+
+    img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        opacity: 0.5;
+    }
+
+    .banner-block {
+        position: absolute;
+
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+    }
+
+    .banner-block__heading {
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+    }
+
+    .banner-block__heading img {
+        width: 60px;
+        height: 60px;
+        opacity: 1;
+    }
+
+    .banner-block__heading p {
+        font-size: 48px;
+        font-weight: 500px;
+        margin: 0;
+    }
+
+    .banner-block__text {
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .banner-block__text span {
+        padding: 5px;
+        margin-top: 40px;
+        font-weight: 500;
+    }
+
+}
+
+/* ==== END BANNER ==== */
